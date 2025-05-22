@@ -160,8 +160,31 @@ See `Schemas.md` for definitions of your data models (User, Book, ReadingLog).
 
 ## 📤 Submitting Your Work
 
-1. Commit all your changes to GitHub.
-2. Share the repository link in your application.
-3. We’ll review your code, comments, and commit history— **we care more about clarity than completeness** .
+1. **Create a new branch**
 
-Good luck, and happy coding! 📖🚀
+   ```bash
+   git checkout -b submission-[Your Name]  # Creates a new branch called "submission"
+   ```
+
+2. **Commit your changes**
+
+   ```bash
+   git add .                                   # Stages all your changes
+   git commit -m "Completed tasks"             # Creates a commit with your changes
+   ```
+
+3. **Push to GitHub**
+
+   ```bash
+   git push origin submission-[Your Name]  # Uploads your branch to GitHub
+   ```
+
+4. **Create a Pull Request (PR)**
+
+   * Go to your GitHub repository in a web browser
+   * Click **Compare & pull request** (you’ll see a yellow banner after pushing)
+   * Add a title like **“My Submission”**
+   * Click **Create pull request**
+
+---
+
