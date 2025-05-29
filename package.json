@@ -1,0 +1,30 @@
+{
+    "name": "animal-training-manager-starter",
+    "version": "1.0.0",
+    "description": "Starter boilerplate for Book Manager API",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^7.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bat-kryptonyte/dev-takehome.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bat-kryptonyte/dev-takehome/issues"
+    },
+    "homepage": "https://github.com/bat-kryptonyte/dev-takehome#readme"
+}
